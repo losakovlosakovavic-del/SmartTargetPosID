@@ -1,0 +1,17 @@
+{
+    "geode": "2.0.0",
+    "id": "Lopopolop.confirm_trigger_groups",
+    "version": "1.0.0",
+    "name": "Quick Group Confirm",
+    "developer": "Lopopolop",
+    "description": "Позволяет быстро выдавать группы триггерам прямо в редакторе в один клик!",
+    "repository": "https://github.com",
+    "settings": {
+        "enabled-by-default": {
+            "name": "Включен по умолчанию",
+            "description": "Режим авто-подтверждения работает сразу при старте игры.",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
