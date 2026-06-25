@@ -38,3 +38,5 @@ jobs:
         with:
           bindings: geode-sdk/bindings
           target: ${{ matrix.config.target }}
+          # Явно заставляем робота использовать стабильную версию SDK:
+          version: v2.0.0
